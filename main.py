@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#TODO: cleanup of main from boxes, linspaces instead
+#TODO: remove mayavi, use visualize.py instead
 import argparse
 from typing import Tuple
 
@@ -8,7 +10,6 @@ import numpy as np
 import portion as P
 from mayavi.mlab import contour3d, show
 
-import Praktyki.cut_box_3D as box
 import psi.hydrogenpsi as hydrogenpsi
 import data_structure.raster as raster
 

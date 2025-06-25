@@ -1,3 +1,4 @@
+#TODO it has to be either more interactive or more intelligent than that
 import numpy as np
 from data_structure.util_cub import load_basic
 from mayavi.modules.api import ScalarCutPlane
